@@ -1,0 +1,19 @@
+.news {
+  &__heading#news-heading {
+   color: green;
+    margin-bottom: 30px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    border: 1px solid #eee;
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+  &-add__button,
+  &-add__form {
+    margin-bottom: 30px;
+  }
+}
